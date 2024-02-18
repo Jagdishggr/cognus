@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    background: #2A5E31;
+}
+
+.headercontent {
+    width: 100%;
+    max-width: 1269px;
+    display: inline-flex;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0 98px 0 98px;
+
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    right: 15px;
+}
+
+.burger .burgerlist {
+    width: 35px;
+    height: 5px;
+    background-color: #000000;
+    margin: 4px 0;
+}
+
+.headercontent #book {
+    height: 20px;
+    width: 555px;
+}
+
+.headercontent #call {
+    margin-left: 227px;
+    width: 128px;
+}
+
+.headercontent #whatsapp {
+    width: 135px;
+    height: 20px;
+}
+
+.headercontent #mail {
+    width: 225px;
+    height: 20px;
+    right: 20px;
+}
+
+.headercontent img {
+    width: 13px;
+    margin: -1px;
+    margin-right: 5px;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1269px;
+    height: 45px;
+    display: inline-flex;
+    margin: 20px 98px 0px 98px;
+}
+
+.leftnav {
+    display: block;
+    width: 150px;
+    height: 50px;
+}
+
+.rightnav {
+    width: 300px;
+    height: 50px;
+    float: right;
+    display: flex;
+}
+
+.logo img {
+    width: 145px;
+    height: 45px;
+    float: left;
+}
+
+.rightnav .serach {
+    float: left;
+    margin-left: 461px;
+}
+
+.serach input {
+    width: 530px;
+    height: 38px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border-color: #D8D8D8;
+}
+
+.serach img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -25px;
+    margin-top: 15px;
+}
+
+.rightnav .login {
+    width: 36px;
+    height: 19px;
+    float: left;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.rightnav img {
+    width: 20px;
+    height: 20px;
+}
+
+.login p {
+    margin-top: -7px;
+    font-size: 14px;
+
+}
+
+.cart {
+    width: 27px;
+    height: 20px;
+    float: left;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.cart p {
+    margin-top: -7px;
+    font-size: 14px;
+}
+
+.cart img {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar2 {
+    width: 100%;
+    max-width: 1269px;
+    height: 45px;
+    display: inline-block;
+    margin: 0px 98px 0px 98px;
+    background-color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #2A2A2A;
+    margin: 0px 71px 0px 0px;
+    padding: 0px 10px;
+}
+
+nav ul button {
+    background-color: #39B54A;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 90px;
+    margin-top: 30px;
+}
+
+.dropdown-menu li a {
+    width: 80px;
+    margin: 5px 5px;
+    padding: 5px;
+    background-color: #D7F0DB;
+    border-radius: 5px;
+
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+nav ul li.dropdown ul.dropdown-menu {
+    left: 0;
+    top: 30%;
+
+}
+
+.middle {
+    width: 100%;
+    max-width: 1130px;
+    display: flex;
+    margin: 134px 119px 0px 119px;
+
+}
+
+.content-list {
+    height: 771px;
+    display: block;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 66px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 530px;
+}
+
+.head h1 {
+    font-size: 57px;
+    color: #000000;
+    width: 707px;
+}
+
+.content img {
+    width: 78px;
+    height: 105;
+    margin-right: 10px;
+}
+
+.content h3 {
+    font-size: 28px;
+    color: #5E6282;
+
+}
+
+.content p {
+    font-size: 23px;
+    margin-top: 11px;
+    color: #5E6282;
+
+}
+
+.image1 {
+    width: 814px;
+    height: 880px;
+    display: flex;
+    margin-left: -168px;
+    margin-bottom: 100px;
+}
+
+.btn button {
+    width: 295px;
+    height: 80px;
+    display: flexbox;
+    background-color: #2A5E31;
+    border-radius: 46px;
+    box-shadow: 15px 15px 50px #7042DC1F;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 23px;
+    margin-top: 101px;
+    
+}
